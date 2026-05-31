@@ -4,7 +4,7 @@ boton.addEventListener("click", function() {
     const usuario = document.querySelector("input[type='text']").value
     const password = document.querySelector("input[type='password']").value
     if (usuario === "admin" && password === "1234"){
-    alert("Bienvenido administrador");
+    window.location.href = "dashboard.html"
     } else {
     alert("usuario o contraseña incorrectos");
     }
